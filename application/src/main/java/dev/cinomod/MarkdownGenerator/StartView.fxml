@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dev.cinomod.MarkdownGenerator.StartViewController">
+    <HBox>
+        <Label fx:id="numrows" text="Number of rows: "/>
+        <TextField id="NumRows" fx:id="numRows"/>
+    </HBox>
+    <HBox>
+        <Label fx:id="numcols" text="Number of columns: "/>
+        <TextField id="NumCols" fx:id="numCols" />
+    </HBox>
+    <Button text="Next" onAction="#reactToClick"/>
+</VBox>
